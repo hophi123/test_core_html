@@ -3,16 +3,17 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="login.js"></script>
 </head>
 
 <body>
     <div class="login-page">
 
         <div class="form">
-            <form class="login-form" action="home.html">
-                <input type="text" placeholder="username" id="username" required/>
-                <input type="password" placeholder="password" id="password" required/>
-                <button>Login</button>
+            <form class="login-form">
+                <input class="input" type="text" placeholder="username" id="username"/>
+                <input class="input" type="password" placeholder="password" id="password"/>
+                <input class="button" type="button" onclick="login()" value="LOGIN">
             </form>
         </div>
     </div>
