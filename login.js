@@ -4,7 +4,7 @@ function login (){
     if(username == '' || password == ''){
       alert('Please enter all field');
     }else{
-        alert('Success');
+        alert('Login Success');
         window.location = "home.html";
     }
     
