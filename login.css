@@ -6,7 +6,7 @@
 .form {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: #ffffff;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
@@ -26,13 +26,13 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #4caf50;
   width: 100%;
   border: 0;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
-  transition: all 0.3 ease; 
+  transition: all 0.3 ease;
 }
 .register {
   font-family: "Roboto", sans-serif;
@@ -43,11 +43,10 @@
   margin-top: 30px;
   border: 0;
   padding: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
-  transition: all 0.3 ease; 
+  transition: all 0.3 ease;
 }
 body {
-  background: #63738a; 
-  /* background-image: url("image/Bardenas.jpg"); */
+  background: #63738a;
 }

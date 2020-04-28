@@ -1,34 +1,34 @@
 .verify-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: 150px auto;
-    text-align: center;
-    box-sizing: border-box;
-    color: rgb(121, 10, 78);
+  width: 360px;
+  padding: 8% 0 0;
+  margin: 150px auto;
+  text-align: center;
+  box-sizing: border-box;
+  color: rgb(121, 10, 78);
 }
 .form {
-    position: relative;
-    z-index: 1;
-    background: #f2f3f7;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-  }
+  position: relative;
+  z-index: 1;
+  background: #f2f3f7;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
 input[type="text"] {
-    width: 13%;
-    border: solid 1px #ccc;
+  width: 13%;
+  border: solid 1px #ccc;
 }
 .verify {
-    margin-top: 15px;
-    padding: 5px;
-    background-color: violet;
-    color: black;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: violet;
+  color: black;
 }
-#my-submit-id{
-    padding: 10px;
-    margin-top: 20px;
-    background-color: lightsteelblue;
+#my-submit-id {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: lightsteelblue;
 }
 body {
-    background: #63738a;
- }
+  background: #63738a;
+}
