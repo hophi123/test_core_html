@@ -32,9 +32,22 @@
   padding: 15px;
   color: #FFFFFF;
   font-size: 14px;
-  /* -webkit-transition: all 0.3 ease; */
+  transition: all 0.3 ease; 
+}
+.register {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(175, 76, 92);
+  width: 100%;
+  margin-top: 30px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
   transition: all 0.3 ease; 
 }
 body {
   background: #76b852; 
+  background-image: url("image/Bardenas.jpg");
 }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verify</title>
+    <link rel="stylesheet" type="text/css" href="verify.css">
+</head>
+
+<body>
+    <div class="verify-page">
+        <div class="dialog">
+            <div class="form">
+                <!-- <input type="number" name="number" (keypress)="keytab($event,1)"/>
+            <input type="number" name="number"/>
+            <input type="number" name="number"/>
+            <input type="number" name="number"/>
+            <input type="number" name="number"/>
+            <input type="number" name="number"/>
+            <button class="verify" id="btn-verify">Verify</button> -->
+                <input maxlength="1" type="text" (keyup)="keytab($event)" />
+                <input maxlength="1" type="text" (keyup)="keytab($event)" />
+                <input maxlength="1" type="text" />
+            </div>
+        </div>
+    </div>
+    <script src="verify.js"></script>
+</body>
+
+</html>

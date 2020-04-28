@@ -11,4 +11,8 @@ function login (){
 
   };
 
+function register (){
+    window.location = "register.html";
+};
+
   
