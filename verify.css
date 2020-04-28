@@ -9,12 +9,12 @@
 .form {
     position: relative;
     z-index: 1;
-    background: #76b852;;
+    background: #f2f3f7;
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
   }
-input[type="number"] {
+input[type="text"] {
     width: 13%;
     border: solid 1px #ccc;
 }
@@ -25,6 +25,5 @@ input[type="number"] {
     color: black;
 }
 body {
-    background: #76b852;
-    background-image: url("image/Huacachina.jpg"); 
+    background: #63738a;
   }
