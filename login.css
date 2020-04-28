@@ -48,6 +48,6 @@
   transition: all 0.3 ease; 
 }
 body {
-  background: #76b852; 
-  background-image: url("image/Bardenas.jpg");
+  background: #63738a; 
+  /* background-image: url("image/Bardenas.jpg"); */
 }
