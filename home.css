@@ -27,6 +27,11 @@ th {
   color: #fff;
   text-transform: uppercase;
 }
+
+.tbl-content table tbody :hover {
+  background-color: rgb(14, 125, 189);
+}
+
 td {
   padding: 15px;
   text-align: left;
