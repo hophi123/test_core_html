@@ -144,10 +144,9 @@ const myArray =
     ]
 
 const getTime = (date) =>{
-    console.log(date);
     const timeStamp = Date.parse(date)
     const a = new Date(timeStamp)
-    const time = `${a.getHours()}-${a.getMinutes()}`
+    const time = `${a.getHours()}:${a.getMinutes()}`
     return time;
 }
 
@@ -167,7 +166,6 @@ const groupByMonth = () => {
     }, {});
 
     var result = Object.keys(groups).map(function (k) { return groups[k]; });
-    console.log(result);
     
     return result;
 }
@@ -200,9 +198,9 @@ const fillDataToTable = myData => {
                 </tr>`;
                 tBody.innerHTML += row;
             }
+            
 
-
-        }
+        }               
 
     }
 
