@@ -1,4 +1,4 @@
-const respone = {
+const response = {
     status: 'connected',
     authResponse: {
         accessToken: this.statusToken,
@@ -35,7 +35,8 @@ const setupFb = () => {
 const submitLogin = () => {
     FB.login(response => {
         if (response.authResponse) {
-            window.location = "home.html";
+            alert("Login By Facebook Success!!");
+            window.location = "transaction.html";
         } else {
             console.log("User login failed");
         }
@@ -50,7 +51,7 @@ const eventLogin = () => {
     })
 }
 
-const checkLogin = () => {
+const checkLogin = () => {  
     return new Promise(() => {
         window.FB.getLoginStatus((response) => {
             statusChangeCallback(response);

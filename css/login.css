@@ -22,7 +22,13 @@
   box-sizing: border-box;
   font-size: 14px;
 }
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .button {
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
@@ -33,14 +39,17 @@
   color: #ffffff;
   font-size: 14px;
   transition: all 0.3 ease;
+  height: 40px;
 }
 .register {
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
   background: rgb(175, 76, 92);
   width: 100%;
-  margin-top: 30px;
+  height: 40px;
+  margin-top: 1rem;
   border: 0;
   padding: 15px;
   color: #ffffff;

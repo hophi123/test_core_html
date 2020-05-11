@@ -4,7 +4,8 @@
 <head>
   <title>Login</title>
   <link rel="stylesheet" type="text/css" href="/css/login.css" />
-  
+  <meta name="google-signin-client_id" content="991000015767-2deask183a9dtgj0cmi2h5ii3a1lr8ko.apps.googleusercontent.com">
+
 </head>
 
 <body>
@@ -17,12 +18,17 @@
         <div class="social-wrap a">
           <button id="facebook">Sign in with Facebook</button>
         </div>
+        <div class="google">
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </div>
         <input class="register" type="button" onclick="register()" value="Go to register" />
       </form>
     </div>
   </div>
   <script src="/js/login.js"></script>
   <script src="/js/loginfacebook.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="/js/loginGoogle.js" async></script>
 </body>
 
 </html>
